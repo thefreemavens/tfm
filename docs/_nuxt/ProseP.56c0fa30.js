@@ -1,1 +1,0 @@
-import{_ as t,o as s,c as a,G as o}from"./entry.d6adf8f8.js";const r={},c={class:"text-sm md:text-base leading-relaxed md:leading-relaxed mt-2 mb-8"};function n(e,d){return s(),a("p",c,[o(e.$slots,"default")])}const _=t(r,[["render",n]]);export{_ as default};

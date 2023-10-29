@@ -51,9 +51,11 @@
       </NuxtLink> -->
 
       <!-- <NuxtLink to="/freemavenry#init" @click="menu = false" class="px-4 py-1.5 font-mono text-xs text-white uppercase bg-black rounded-md me-4"> -->
-      <NuxtLink v-if="!maven.model" to="/freemavenry#" @click="menu = false" class="px-2 py-1 font-mono text-xs uppercase border lg:px-3 me-4">
-      --> Be a Maven
-      </NuxtLink>
+      <ClientOnly>
+        <NuxtLink v-if="!maven.model" to="/freemavenry#" @click="menu = false" class="px-2 py-1 font-mono text-xs uppercase border lg:px-3 me-4">
+        --> Be a Maven
+        </NuxtLink>
+      </ClientOnly>
 
       <!-- {{ maven }} -->
 
@@ -75,6 +77,7 @@
 const menu = useState('menu', () => false)
 // const maven = useState('maven')
 // const maven = ref()
+// const maven = useState('maven', () => '')
 const maven = useCookie('pb_auth')
 
 // const { $pb } = useNuxtApp()
