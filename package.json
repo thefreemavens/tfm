@@ -1,0 +1,27 @@
+{
+  "name": "tfm-app",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@formkit/nuxt": "^1.2.2",
+    "@formkit/themes": "^1.2.2",
+    "@nuxt/content": "^2.8.2",
+    "@nuxt/devtools": "latest",
+    "@nuxtjs/color-mode": "^3.3.0",
+    "@nuxtjs/tailwindcss": "^6.8.0",
+    "glob": "^10.3.5",
+    "install": "^0.13.0",
+    "nuxt": "^3.7.4",
+    "pocketbase": "^0.18.0",
+    "sitemap": "^7.1.1",
+    "lite-youtube-embed": "^0.3.0"
+  },
+  "dependencies": {
+  }
+}

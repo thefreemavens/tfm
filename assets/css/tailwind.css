@@ -1,0 +1,91 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Base */
+@layer base {
+  /* Add Local Fonts */
+  /* inter-regular - latin */
+
+  @font-face {
+    font-display: swap;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    src: url('@/assets/fonts/inter-v13-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+
+  /* inter-700 - latin */
+  @font-face {
+    font-display: swap;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    src: url('@/assets/fonts/inter-v13-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+
+  /* victor-mono-regular - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Victor Mono';
+    font-style: normal;
+    font-weight: 400;
+    src: url('@/assets/fonts/victor-mono-v3-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+
+
+  /* HTML */
+  html { @apply scroll-smooth}
+  sup { @apply text-[0.5em] align-super}
+  lite-youtube { max-width: 100%;}
+  lite-youtube::before { height: 100px !important;}
+  b {@apply font-bold}
+
+
+  /* Forms */
+  /* .form-group { @apply text-left mb-3 relative}
+  .form-group .error { @apply text-sm}
+
+  [type='text'],
+  [type='email'],
+  [type='password'],
+  textarea,
+  select {
+    @apply
+      rounded w-full outline-none
+      my-0 pb-2 pt-7 px-3
+      text-base leading-tight
+      text-grey-900 dark:text-white
+      bg-transparent dark:bg-transparent border
+      border-grey-200 dark:border-grey-800
+      group-hover:border-grey-975 dark:group-hover:border-white
+      focus:ring-1 focus:ring-black dark:focus:ring-white
+      focus:border-black dark:focus:border-white
+      focus-visible:border-black focus-visible:ring-black
+      transform transition-all duration-200 ease-in-out;
+  }
+  label {
+    @apply
+      absolute flex items-center -z-[1]
+      px-3
+      text-grey-500 dark:text-grey-500
+      text-base group-focus-within:text-xs peer-valid:text-xs
+      top-4 group-focus-within:top-5 peer-valid:top-5
+      group-focus-within:-translate-y-full peer-valid:-translate-y-full
+      transform transition-all duration-100 ease-linear;
+  } */
+
+  /* Content */
+  .content h1 {
+    @apply
+      text-2xl/tight sm:text-3xl/tight md:text-4xl/tight lg:text-5xl/tight xl:text-6xl/tight
+      font-bold tracking-tight
+      pt-6 pb-3 sm:pb-4 md:pt-8 md:pb-5 lg:pt-10 lg:pb-6
+  }
+  .content .desc {
+    @apply
+      text-lg/normal sm:text-lg/normal md:text-xl/normal lg:text-2xl/normal xl:text-3xl/normal
+      font-thin block tracking-tight 
+      pt-6 pb-5 sm:pb-6 md:pb-7 md:pt-8 lg:pb-8 lg:pt-10
+  }
+}

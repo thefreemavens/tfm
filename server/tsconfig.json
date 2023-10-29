@@ -1,0 +1,12 @@
+{
+  "extends": "../.nuxt/tsconfig.server.json",
+  "compilerOptions": {
+    "outDir": "./output",
+    "allowJs": true
+  },
+  "exclude": [
+    // "./plugins/**/*",
+    // "./typings/**/*",
+    "./output/**/*" // This is what fixed it!
+  ]
+}
