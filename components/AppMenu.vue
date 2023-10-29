@@ -94,7 +94,7 @@
 </template>
 
 <script setup lang="ts">
-import { useState, useCookie, useAppConfig, ref, computed, onMounted } from '#imports';
+// import { useState, useCookie, useAppConfig, ref, computed, onMounted } from '#imports';
 
 const menu = useState('menu', () => false)
 
@@ -102,7 +102,7 @@ const menu = useState('menu', () => false)
 //   model: any,
 //   // CookieRef: object
 // }
-const maven = useCookie<any>('pb_auth')
+const maven = useCookie<any>('pb_auth', {sameSite: true})
 
 const appConfig = useAppConfig()
 
