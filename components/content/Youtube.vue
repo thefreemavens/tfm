@@ -1,14 +1,16 @@
 <template>
-  <div ref="youtube">
-    <lite-youtube
-      :videoid="id"
-      :params="params"
-      :playlabel="label"
-      :style="{ backgroundImage: `url(${poster})` }"
-      class="my-8"
-      />
-      <!-- :class="class" -->
-  </div>
+  <ClientOnly>
+    <div ref="youtube">
+      <lite-youtube
+        :videoid="id"
+        :params="params"
+        :playlabel="label"
+        :style="{ backgroundImage: `url(${poster})` }"
+        class="my-8"
+        />
+        <!-- :class="class" -->
+    </div>
+  </ClientOnly>
  </template>
 
  <script setup lang="ts">

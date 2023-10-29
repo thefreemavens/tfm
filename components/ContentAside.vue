@@ -27,7 +27,7 @@
 
 <script setup lang="ts">
   // const { toc } = useContent()
-  const baseUrl = './../img/market/'
+  const baseUrl = '/img/market/'
   
   const products = [
     {
