@@ -183,11 +183,11 @@ const menuItemsLogin = ref([
     url: '/maven/account'
     // slug: 'account',
   },
-  {
-    title: 'Update Account',
-    url: '/maven/account/update'
-    // slug: 'update',
-  }
+  // {
+  //   title: 'Update Account',
+  //   url: '/maven/account/update'
+  //   // slug: 'update',
+  // }
 ])
 
 const menuItemsMember = computed(() => {

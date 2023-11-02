@@ -33,7 +33,7 @@
     <!-- </NuxtLink> -->
 
     <NuxtLink to="/" @click="menu = false" class="p-0 my-3 ms-4">
-      <AppLogomark class="w-11 h-11 text-indigo" />
+      <AppLogomark class="w-11 h-11" />
     </NuxtLink>
 
     <!-- <h1 class="mx-4 text-2xl font-black">TFM</h1> -->
