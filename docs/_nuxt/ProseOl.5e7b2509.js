@@ -1,1 +1,0 @@
-import{_ as s,o,c as t,H as c}from"./entry.3aef6799.js";const l={},r={class:"list-inside list-decimal ps-4 mb-8 text-sm/loose md:text-base/loose"};function a(e,n){return o(),t("ol",r,[c(e.$slots,"default")])}const d=s(l,[["render",a]]);export{d as default};

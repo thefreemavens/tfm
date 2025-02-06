@@ -3,7 +3,7 @@
     <!-- HERO -->
     <section class="grid relative grid-cols-6 pt-8 pb-16 mx-4 border-t lg:pt-12 lg:pb-20">
       <!-- HERO: Title -->
-      <div class="mt-0 mb-12 text-5xl font-bold sm:text-6xl md:text-7xl lg:text-8xl">---></div>
+      <!-- <div class="mt-0 mb-12 text-5xl font-bold sm:text-6xl md:text-7xl lg:text-8xl">-></div> -->
       <h1
         class="flex flex-col col-span-6 col-start-1 mb-24 text-5xl font-bold tracking-tighter leading-none xl:pe-36 sm:text-6xl md:text-7xl lg:text-8xl">
         Discover your true power and learn how to use it 
