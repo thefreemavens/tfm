@@ -12,8 +12,10 @@ export default defineNuxtConfig({
   // ssr: false,
   experimental: {
     renderJsonPayloads: true,
-    payloadExtraction: true
+    payloadExtraction: true,
+    appManifest: false,
   },
+  ssr: false,
   nitro: { 
     preset: 'static',
     serveStatic: true,

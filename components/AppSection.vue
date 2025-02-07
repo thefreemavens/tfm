@@ -31,9 +31,6 @@
       ">
         <span class="mb-4 md:mb-8 block">---></span>
         <slot name="desc"></slot>
-        <!-- Introducing <span class="font-bold">Picons</span> (<span class="italic">Principles + Icons</span>), 
-        a set of eight thoughtout and crafted open-source and free-to-use icons that visually represnt the eight
-        immutable principles of Natural Law<sup class="inline-block text-sm relative -top-3 start-1">🡵</sup>. -->
       </h3>
     </div>
     <slot />

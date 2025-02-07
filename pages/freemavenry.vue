@@ -6,11 +6,11 @@
         Be a Maven
       </template>
       <template #desc>
-        <NuxtLink to="/knowledge/discovery-vs-belief" class="border-b mx-[0.2em] font-bold">Discover<sup>🡵</sup></NuxtLink> 
+        <NuxtLink to="/knowledge/discovery-vs-belief" class="border-b font-bold">Discover</NuxtLink> 
         your true power and 
-        <NuxtLink to="/knowledge/teachability" class="border-b mx-[0.2em] font-bold">learn<sup>🡵</sup></NuxtLink> 
+        <NuxtLink to="/knowledge/teachability" class="border-b font-bold">learn</NuxtLink> 
         how to 
-        <NuxtLink to="/knowledge/the-lost-word " class="border-b mx-[0.2em] font-bold">use<sup>🡵</sup></NuxtLink> 
+        <NuxtLink to="/knowledge/the-lost-word " class="border-b font-bold">use</NuxtLink> 
         it
       </template>
 
@@ -63,11 +63,11 @@
       </template>
       <template #desc>
         The essential qualifications for admission are abiding by our collective 
-        <NuxtLink to="#Principles" class="border-b mx-[0.2em] font-bold">Principles<sup>🡵</sup></NuxtLink>, 
+        <NuxtLink to="#Principles" class="border-b font-bold">Principles</NuxtLink>, 
         understanding 
-        <NuxtLink to="/knowledge/main" class="border-b mx-[0.2em] font-bold">The Real Natural Law<sup>🡵</sup></NuxtLink> 
+        <NuxtLink to="/knowledge/main" class="border-b font-bold">The Real Natural Law</NuxtLink> 
         and 
-        <NuxtLink to="/knowledge/the-great-work/#" class="border-b mx-[0.2em] font-bold">Applying<sup>🡵</sup></NuxtLink>
+        <NuxtLink to="/knowledge/the-great-work/#" class="border-b font-bold">Applying</NuxtLink>
         it in real life.
       </template>
 
@@ -190,7 +190,7 @@
             a few months to become a Master Maven, with each of the three stages marked by a special acknowledgment.
           </p>
           <p class="mt-8 mb-4">
-            The essential qualifications for admission are abiding by our collective <NuxtLink to="#Principles" class="border-b mx-[0.2em] font-bold">Principles<sup>🡵</sup></NuxtLink>, understanding <NuxtLink to="/knowledge/main" class="border-b mx-[0.2em] font-bold">The Real Natural Law<sup>🡵</sup></NuxtLink> and 
+            The essential qualifications for admission are abiding by our collective <NuxtLink to="#Principles" class="border-b font-bold">Principles</NuxtLink>, understanding <NuxtLink to="/knowledge/main" class="border-b font-bold">The Real Natural Law</NuxtLink> and 
             applying it in real life.
           </p>
           <p class="px-4 py-2 mt-10 mb-8 font-mono text-xs border">

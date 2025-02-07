@@ -229,7 +229,7 @@
       <template #desc>
         Introducing <span class="font-bold">Picons</span> (<span class="italic">Principles + Icons</span>), 
         open-source and free-to-use set of 8 icons symbolizing the great body of knowledge of Natural Law and the 8
-        immutable metaphisical principles of our universe<sup class="inline-block relative -top-3 text-sm start-1">🡵</sup>
+        immutable metaphisical principles of our universe
       </template>
       <ul class="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3">
         <li

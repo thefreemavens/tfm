@@ -5,7 +5,7 @@
     class="border-b hover:border-b-0"
   >
     <slot />
-    <sup class="inline-block text-2xs relative start-0.5 -top-1 pe-0.5">🡵</sup>
+    <!-- <sup class="inline-block text-2xs relative start-0.5 -top-1 pe-0.5">&#10132;</sup> -->
   </NuxtLink>
 </template>
 

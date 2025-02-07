@@ -74,7 +74,7 @@
             </template>
             <template #desc>
               Error 404: Not Found<br>
-              <NuxtLink to="/knowledge/discovery-vs-belief" class="border-b font-bold">Back to Home<sup>🡵</sup></NuxtLink>
+              <NuxtLink to="/knowledge/discovery-vs-belief" class="border-b font-bold">Back to Home</NuxtLink>
             </template>
           </AppSection>
         </template>
