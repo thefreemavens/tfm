@@ -15,7 +15,7 @@ export default defineNuxtConfig({
     payloadExtraction: true,
     appManifest: false,
   },
-  ssr: false,
+  // ssr: false,
   nitro: { 
     preset: 'static',
     serveStatic: true,
