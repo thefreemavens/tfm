@@ -101,7 +101,7 @@
           </p>
 
           <p class="leading-relaxed">
-            <span class="block pb-3 text-xl font-bold tracking-tight me-1 md:text-2xl">The Free Mavens</span> TFM promotes the great body of knwoledge of Natural Law, so that
+            <span class="block pb-3 text-xl font-bold tracking-tight me-1 md:text-2xl">The Free Mavens</span> TFM promotes the great body of knowledge of Natural Law, so that
             people all over the world can gain a better understanding of the causal factors and the real issues we are faced in the world today
             in effort to feed a desire to help and to create a reality that is based in truth, morality, love and freedom;
             <span class="line-through">Not lies, immorality, fear and slavery.</span>
