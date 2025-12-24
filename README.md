@@ -7,7 +7,7 @@ The Freemavens official website.
 ### Lessons
 - Needs review
 
-### Challanges
+### Challenges
 - Needs review
 
 ### Profile

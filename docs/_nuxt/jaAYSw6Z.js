@@ -1,0 +1,1 @@
+import{Z as e,y as i,C as n}from"./RTjtykEw.js";const p=e((a,o)=>{const t=i().$pb.authStore.isValid;if(!t&&a.path=="/maven/account"||!t&&a.path=="/maven/account/update")return n("/maven/login");if(t&&a.path=="/maven/login"||t&&a.path=="/maven/initiation")return n("/maven/account")});export{p as default};

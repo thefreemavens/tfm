@@ -1,0 +1,1 @@
+import{r as o}from"./t992Z9z_.js";import{_ as r,c as t,o as n}from"./RTjtykEw.js";import"./B8IaAclc.js";const s={},a={class:"font-mono text-xs px-4 py-3 border leading-relaxed mb-8"};function c(e,d){return n(),t("div",a,[o(e.$slots,"default",{unwrap:"p"},void 0,!0)])}const l=r(s,[["render",c],["__scopeId","data-v-889581c8"]]);export{l as default};

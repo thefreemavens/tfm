@@ -1,6 +1,6 @@
 <template>
   <main class="container mx-auto">
-    <!-- Challanges -->
+    <!-- Challenges -->
     <AppSection>
       <template #title>Application<br>Form</template>
       <template #desc>

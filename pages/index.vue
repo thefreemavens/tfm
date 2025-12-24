@@ -56,10 +56,10 @@
         </div>
       </NuxtLink>
 
-      <!-- Challanges -->
+      <!-- Challenges -->
       <NuxtLink to="/challenges/main">
         <div class="pb-4 group">
-          <h3 class="mb-6 text-3xl font-bold tracking-tighter lg:text-4xl xl:text-5xl">Challanges</h3>
+          <h3 class="mb-6 text-3xl font-bold tracking-tighter lg:text-4xl xl:text-5xl">Challenges</h3>
           <div class="relative my-6 aspect-square">
             <span class="absolute z-10 rounded-full w-1/2 h-1/2 top-[25%] left-[25%] bg-white mix-blend-difference"/>
             <svg
@@ -70,7 +70,7 @@
             </svg>
           </div>
           <p class="text-base xl:text-lg">
-            Challanges to track your learning progress and level of undersatnding.
+            Challenges to track your learning progress and level of undersatnding.
           </p>
           <span class="inline-block invisible mt-4 text-xs group-hover:visible">Read More --></span>
         </div>
