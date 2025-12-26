@@ -7,7 +7,7 @@ const routes = globSync('./content/**/*.md')
 export default defineNuxtConfig({
   devtools: { enabled: false },
   // app: {
-  //   baseURL: '/tfm-web/'
+  //   baseURL: '/tfm/'
   // },
   // ssr: false,
   experimental: {
@@ -55,7 +55,7 @@ export default defineNuxtConfig({
   },
   vue: {
     compilerOptions: {
-      isCustomElement: tag => ['lite-youtube'].includes(tag)
+      isCustomElement: tag => ['lite-youtube', 'Use'].includes(tag)
     }
   }
 })

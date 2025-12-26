@@ -1,1 +1,0 @@
-import{_ as t,c as s,o as a,X as o}from"./RTjtykEw.js";const r={},c={class:"text-sm md:text-base leading-relaxed md:leading-relaxed mt-2 mb-8"};function n(e,d){return a(),s("p",c,[o(e.$slots,"default")])}const _=t(r,[["render",n]]);export{_ as default};

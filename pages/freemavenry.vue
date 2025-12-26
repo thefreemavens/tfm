@@ -134,24 +134,24 @@
     <section class="grid grid-cols-1 gap-8 py-12 mx-4 my-12 border-t lg:pt-12 lg:pb-20 lg:grid-cols-3 lg:gap-10 xl:gap-12">
       <h4 id="Principles" class="flex flex-col col-span-1 py-0 mb-4 text-5xl font-bold tracking-tighter lg:col-span-3 md:mb-10 sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl">Principles</h4>
         <p class="mb-8">
-          <div class="--lg:border">
+          <span class="--lg:border">
             <AppIcon name="tetrahedron" class="scale-[61.803%] aspect-video lg:aspect-square w-full h-full fill-none stroke-current stroke-[8px]" />
-          </div>
+          </span>
           <b class="block pb-4 text-3xl tracking-tight md:pb-6 md:text-4xl">Truth</b> 
           Freemavenry strives for the singular and objective truth and requires high moral standards of all our members and friends. 
         </p>
         <p class="mb-8">
-          <div class="--lg:border">
+          <span class="--lg:border">
             <AppIcon name="polyhedron" class="scale-[61.803%] aspect-video lg:aspect-square w-full h-full fill-none stroke-current stroke-[8px]" />
-          </div>
+          </span>
           <b class="block pb-4 text-3xl tracking-tight md:pb-6 md:text-4xl">Love</b> 
           The Selfless kind. Every member will show tolerance and respect for others and behave 
           with kindness and understanding to his fellow beings.  
         </p>
         <p class="mb-8">
-          <div class="--lg:border">
+          <span class="--lg:border">
             <AppIcon name="icosahedron" class="scale-[61.803%] aspect-video lg:aspect-square w-full h-full fill-none stroke-current stroke-[8px]" />
-          </div>
+          </span>
           <b class="block pb-4 text-3xl tracking-tight md:pb-6 md:text-4xl">Care</b> 
           Freemavens are taught to practice charity, and to care, not only for their own members, but for the community as a whole, 
           by charitable giving, voluntary effort and taking actions.  
@@ -161,17 +161,17 @@
     <section class="grid grid-cols-1 gap-8 py-12 mx-4 my-12 border-t lg:pt-12 lg:pb-20 lg:grid-cols-3 lg:gap-10 xl:gap-12">
       <h4 id="Principles" class="flex flex-col col-span-1 py-0 mb-4 text-5xl font-bold tracking-tighter lg:col-span-3 md:mb-10 sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl">Definitions</h4>
         <p class="mb-8 lg:col-start-2">
-          <div class="--lg:border">
+          <span class="--lg:border">
             <AppIcon name="f" class="w-full h-full scale-[61.803%] aspect-video lg:aspect-square fill-none" />
-          </div>
+          </span>
           <b class="block pb-4 text-3xl tracking-tight md:pb-6 md:text-4xl">Free</b> 
             The word Free means not under the control or in the power of another; 
             able to act or be done as one wishes. 
         </p>
         <p class="mb-8">
-          <div class="--lg:border">
+          <span class="--lg:border">
             <AppIcon name="m" class="w-full h-full scale-[61.803%] aspect-video lg:aspect-square fill-none" />
-          </div>
+          </span>
           <b class="block pb-4 text-3xl tracking-tight md:pb-6 md:text-4xl">Maven</b> 
             The word Maven derives from the Yiddish word Meyvn, meaning "one who understands." 
             To be a Maven one have to know the ins and outs of a topic. Often Mavens are the people that we turn to 
